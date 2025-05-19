@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Neha Sampath"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: My Journey
+        href: journey.qmd
+      - text: Casework
+        href: casework.qmd
+      - text: Skillset
+        href: skills.qmd
+      - text: Leadership
+        href: leadership.qmd
+      - text: Contact
+        href: contact.qmd
+format:
+  html:
+    theme: litera
+    toc: true
